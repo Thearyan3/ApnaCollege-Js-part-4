@@ -66,11 +66,28 @@
 // }
 
 // 9. Loops with Arrays
-let fruits = ["Mango", "apple", "banana", "Litchi", "orange"];
-fruits.push("pineapple");
-// for(let i = 0; i < fruits.length; i++){
+// let fruits = ["Mango", "apple", "banana", "Litchi", "orange"];
+// fruits.push("pineapple");
+// // for(let i = 0; i < fruits.length; i++){
+// //     console.log(i,":", fruits[i]);
+// // }
+// for(let i = fruits.length - 1; i >= 0; i--){
 //     console.log(i,":", fruits[i]);
 // }
-for(let i = fruits.length - 1; i >= 0; i--){
-    console.log(i,":", fruits[i]);
-}
+
+// 10. Loops with Arrays - Nested Loops with Nested Arrays 
+// let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder woman", "flash"]];
+// for(let i = 0; i < heroes.length; i++){
+//     console.log(i, ":", heroes[i]);
+//     for(let j = 0; j < heroes[i].length; j++){
+//         console.log(`j = ${j}, ${heroes[i][j]}`)
+//     }
+// }
+
+// let students = [["aman", 95], ["aryan", 59], ["gandu", 58]];
+// for(let i = 0; i < students.length; i++){
+//     console.log(`Info of student No. ${i + 1} :`)
+//     for(let j = 0; j <students[i].length; j++){
+//         console.log(students[i][j]);
+//     }
+// }
