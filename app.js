@@ -13,6 +13,13 @@
 // }
 
 // 3. Print all even numbers (2 to 10)
-for(let i = 2; i <= 10; i += 2){
+// for(let i = 2; i <= 10; i += 2){
+//     console.log(i);
+// }
+
+// 4. Print the multiplication table for 5
+let n = prompt("Write your Number :");
+n = parseInt(n);
+for(let i = n; i <= n * 10; i = i + n){
     console.log(i);
 }
