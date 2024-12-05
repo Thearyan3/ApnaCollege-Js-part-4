@@ -31,3 +31,12 @@
 //         console.log(j);
 //     }
 // }
+
+// 6. while loop
+// let i = 1;
+// while(i <= 5){
+//     console.log(i);
+//     i++;
+// }
+
+// 7. do-while loop
