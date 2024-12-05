@@ -39,4 +39,15 @@
 //     i++;
 // }
 
-// 7. do-while loop
+// 7. favorite Movie
+// let favMovie = "Avengers";
+// let guess = prompt("Enter Movie Name :");
+// while((guess != favMovie) && (guess != "quit")){
+//     guess = prompt("Wrong Movie. Guess Again :");
+// }
+
+// if(guess == favMovie){
+//     guess = alert("You guessed it,Congratulations.")
+// }else{
+//     guess = alert("You Quit");
+// }
