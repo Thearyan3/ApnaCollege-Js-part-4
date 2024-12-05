@@ -18,8 +18,16 @@
 // }
 
 // 4. Print the multiplication table for 5
-let n = prompt("Write your Number :");
-n = parseInt(n);
-for(let i = n; i <= n * 10; i = i + n){
-    console.log(i);
-}
+// let n = prompt("Write your Number :");
+// n = parseInt(n);
+// for(let i = n; i <= n * 10; i = i + n){
+//     console.log(i);
+// }
+
+// 5. Nested for Loop
+// for(let i = 1; i <= 3; i++){
+//     console.log(`Outer loop is ${i}`);
+//     for(let j = 1; j <= 3; j++){
+//         console.log(j);
+//     }
+// }
