@@ -40,19 +40,19 @@
 // }
 
 // 7. favorite Movie
-let favMovie = "Avengers";
-let guess = prompt("Enter Movie Name :");
-while(guess != favMovie){
-    if(guess == "quit"){
-        console.log("You quit");
-        break;
-    }
-    guess = prompt("Wrong Movie. Guess Again :");
-}
+// let favMovie = "Avengers";
+// let guess = prompt("Enter Movie Name :");
+// while(guess != favMovie){
+//     if(guess == "quit"){
+//         guess = alert("You quit");
+//         break;
+//     }
+//     guess = prompt("Wrong Movie. Guess Again :");
+// }
 
-if(guess == favMovie){
-    guess = alert("You guessed it,Congratulations.")
-}
+// if(guess == favMovie){
+//     guess = alert("You guessed it,Congratulations.")
+// }
 
 // 8. break keyword
 // let i = 1; 
@@ -64,3 +64,13 @@ if(guess == favMovie){
 //     console.log(i);
 //     i++;
 // }
+
+// 9. Loops with Arrays
+let fruits = ["Mango", "apple", "banana", "Litchi", "orange"];
+fruits.push("pineapple");
+// for(let i = 0; i < fruits.length; i++){
+//     console.log(i,":", fruits[i]);
+// }
+for(let i = fruits.length - 1; i >= 0; i--){
+    console.log(i,":", fruits[i]);
+}
