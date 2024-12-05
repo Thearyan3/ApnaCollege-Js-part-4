@@ -40,14 +40,27 @@
 // }
 
 // 7. favorite Movie
-// let favMovie = "Avengers";
-// let guess = prompt("Enter Movie Name :");
-// while((guess != favMovie) && (guess != "quit")){
-//     guess = prompt("Wrong Movie. Guess Again :");
-// }
+let favMovie = "Avengers";
+let guess = prompt("Enter Movie Name :");
+while(guess != favMovie){
+    if(guess == "quit"){
+        console.log("You quit");
+        break;
+    }
+    guess = prompt("Wrong Movie. Guess Again :");
+}
 
-// if(guess == favMovie){
-//     guess = alert("You guessed it,Congratulations.")
-// }else{
-//     guess = alert("You Quit");
+if(guess == favMovie){
+    guess = alert("You guessed it,Congratulations.")
+}
+
+// 8. break keyword
+// let i = 1; 
+// while(i <= 5){
+//     if(i == 3){
+//         console.log("We used break here.")
+//         break;
+//     }
+//     console.log(i);
+//     i++;
 // }
