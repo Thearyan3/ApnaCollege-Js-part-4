@@ -22,12 +22,23 @@
 
 
 // Qs 3 . Write a JS program to find the sum of digits in a number. Example : if number = 287152, sum = 25.
-let number = "287152";
-let sum = 0;
-for(let i = 0; i < number.length; i++){
-    sum = sum + number[i];
+// let number = [2,8,7,1,5,2];
+// let sum = 0;
+// for(let i = 0; i < number.length; i++){
+//     sum += number[i];
+// }
+// console.log(sum);
+
+
+
+// Qs 4 . Print the factorial of a number n.
+// [Factorial of a number n is the product of all positive integers less than or equal to a given positive integer and denoted by that integer.] 
+// Example : 7! (factorial of 7) = 1 x 2 x 3 x 4 x 5 x 6 x 7 = 5040 5! (factorial of 5) = 1 x 2 x 3 x 4 x 5 = 120 3! (factorial of 3) = 1 x 2 x 3 =60 ! Is always 1.
+let n = prompt("Enter the number :");
+n = parseInt(n);
+for(let i = 0; i < n; i++){
+    
 }
-console.log(sum);
 
 
 
@@ -39,6 +50,4 @@ console.log(sum);
 
 
 
-
-// Qs4.Printthefactorialofanumbern.[Factorialofanumbernistheproductofallpositiveintegerslessthanorequaltoagivenpositiveintegeranddenotedbythatinteger.]Example:7!(factorialof7)=1x2x3x4x5x6x7=50405!(factorialof5)=1x2x3x4x5=1203!(factorialof3)=1x2x3=60!Isalways1
 // Qs5.Findthelargestnumberinanarraywithonlypositivenumbers.
